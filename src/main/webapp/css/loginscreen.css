@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+}
+
+form {
+	min-height: 80vh;
+}
+
+.rogo {
+
+	background-image: url(../photo/778141.png);
+	background-position: center;
+	background-size: cover;
+	margin: 50px auto 30px auto;
+	height: 62px;
+	width: 200px;
+}
+
+.jack {
+
+	border: 1px solid;
+	background-color: #e9f0ef;
+	border: 1px solid;
+	border-width: 1px;
+	border-bottom: 1px solid;
+	width: 40%;
+	margin: 30px auto 20px auto;
+}
+
+.jack {
+
+
+	background-position: center;
+	background-size: cover;
+	top: 200px;
+	left: 0;
+	right: 0;
+	margin: 30px auto 20px auto;
+}
+
+.button {
+
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	top: 580px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.content {
+	margin: 50px;
+}
+
+.row {
+	margin-top: 30px;
+}
+
+.row2 {
+	margin-top: 40px;
+	text-align: end;
+}
+
+.text {
+
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	top: 530px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.footer {
+	width: 100%;
+	background-color:#0404b4;
+	color: #ffffff;
+}
+
+.footer-menu {
+	list-style: none;
+	display: flex;
+}
+
+.footer-menu li:not(:last-child) {
+	padding-right: 10px;
+}
+
+.fh {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0 ;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+	font-size: 13px;
+}
+
+
+.touroku {
+	margin: 20px;
+	text-align: center;
+}
+
+.registerMsg {
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	top: 730px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
