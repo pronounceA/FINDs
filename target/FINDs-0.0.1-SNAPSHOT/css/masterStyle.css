@@ -1,0 +1,73 @@
+/* masterStyle.css */
+
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	background-color: #dcdcdc;
+	/* 右下に画像を乗せる時
+	background-image: url("../photo/cart.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 100% 100%;
+	*/
+}
+img {
+	vertical-align: bottom;
+}
+
+.header {
+	width: 100%;
+}
+
+.logo_back {
+	margin: 0;
+	background-color: #000000;
+}
+
+.logo {
+	margin: 0px 24px 0px 48px;
+	padding: 7px 0px 7px 0px;
+	color: #ffffff;
+	font-family: "Yu Mincho";
+	font-size: 30px;
+}
+
+.login_back {
+	margin: 0;
+	background-color: #0076be;
+	vertical-align: middle;
+}
+
+.login {
+	margin: 0px 24px 0px 45px;
+	padding: 12px 0px 12px 0px;
+	color: #ffffff;
+	line-height: 1.6em;
+}
+.main {
+	margin: 35px;
+	height: 680px;
+	line-height: 1.8em;
+}
+
+.footer {
+	width: 100%;
+	padding: 15px 0px 15px 0px;
+	background-color:#000000;
+	color: #000000;
+	text-align: center;
+}
+
+.copyright {
+	width: 100%;
+	padding: 7px 0px 7px 0px;
+	color: #ffffff;
+	font-size: 13.4px;
+	text-align: center;
+}
+
+/* 以下宍戸記述 */
+.upload-img {
+	width:100px;
+}

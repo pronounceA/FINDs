@@ -76,7 +76,7 @@ public class RegisterServlet extends HttpServlet {
 			if(registerJudge == 1) {
 				HttpSession session = request.getSession();
 				session.setAttribute("registerMsg", "アカウント登録完了<br>初回登録特典で5,000ポイント付与されました");
-				response.sendRedirect("/FINDs/LoginServlet");
+				response.sendRedirect("./LoginServlet");
 			} else if(registerJudge == 2) {
 				request.setAttribute("registerErrorMsg", "【エラー】<br>そのニックネームは使用されています");
 				RequestDispatcher dispatcher =

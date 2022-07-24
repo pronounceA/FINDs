@@ -52,7 +52,7 @@ public class LoginServlet extends HttpServlet {
 			boolean result = bo.execute(login);
 
 			if (Name.equals("admin") && Pass.equals("admin")) {
-				response.sendRedirect("/FINDs/MasterServlet");
+				response.sendRedirect("./MasterServlet");
 
 			} else {
 

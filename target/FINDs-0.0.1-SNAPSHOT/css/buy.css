@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+.side-container {
+	display: none;
+}
+
+.main-cart-img img {
+	height: 100px;
+	width: 100px;
+	margin: 2px;
+}
+
+.cart-item {
+	padding: 5px 0;
+}
+
+.cart-item:not(:first-child) {
+	border-top: 1px dashed rgb(192, 192, 192);
+	margin-top: 5px;
+}
+
+.cartlist-container {
+	margin-top: 10px;
+}
+
+.cart-title {
+	display: flex;
+}
+
+.main-cart {
+	font-size: 25px;
+	position: relative;
+	margin: 0.2em 0 0;
+	width: 1.6em;
+	height: 1.2em;
+	background:
+		linear-gradient(to bottom, #fe8c00 0%, #fe8c00 100%) 0em 0em / 0.3em 0.1em no-repeat,
+		linear-gradient(to bottom, #fe8c00 0%, #fe8c00 100%) 0.3em 0em / 0.1em 1.0em no-repeat,
+		linear-gradient(to bottom, #fe8c00 0%, #fe8c00 100%) 0.3em 0.2em / 1.2em 0.1em no-repeat,
+		linear-gradient(to bottom, #fe8c00 0%, #fe8c00 100%) 0.65em 0.2em / 0.1em 0.5em no-repeat,
+		linear-gradient(to bottom, #fe8c00 0%, #fe8c00 100%) 1.05em 0.2em / 0.1em 0.5em no-repeat,
+		linear-gradient(to bottom, #fe8c00 0%, #fe8c00 100%) 1.4em 0.2em / 0.1em 0.5em no-repeat,
+		linear-gradient(to bottom, #fe8c00 0%, #fe8c00 100%) 0.3em 0.45em / 1.2em 0.1em no-repeat,
+		linear-gradient(to bottom, #fe8c00 0%, #fe8c00 100%) 0.3em 0.7em / 1.2em 0.1em no-repeat,
+		linear-gradient(to bottom, #fe8c00 0%, #fe8c00 100%) 0.3em 0.9em / 1.1em 0.1em no-repeat;
+}
+
+/* タイヤ左 */
+.main-cart::before {
+	content: "";
+	position: absolute;
+	top: 1em;
+	left: 0.4em;
+	width: 0.1em;
+	height: 0.1em;
+	border: 0.1em solid  #fe8c00;
+	border-radius: 100%;
+}
+/* タイヤ右 */
+.main-cart::after {
+	content: "";
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	width: 0.1em;
+	height: 0.1em;
+	border: 0.1em solid  #fe8c00;
+	border-radius: 100%;
+}
+
+.main-ctr {
+	margin-left: 10px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 34px;
+	font-weight: 600;
+	color: #0404b4;
+/*	text-shadow:1px 1px 0 #000 , -1px -1px 0 #000,
+              -1px 1px 0 #000 , 1px -1px 0 #000 ,
+              0px 1px 0 #000 ,  0-1px 0 #000 ,
+              -1px 0 0 #000 , 1px 0 0 #000 ;
+	color: #fe8c00;
+*/
+}
+
+.item-upper {
+	display: flex;
+}
+
+.cart-name {
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.cnpa {
+	margin-left: 10px;
+}
+
+.small {
+	margin: 3px 0 0 0;
+	color: rgb(128, 128, 128);
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+.total-price {
+	text-align: right;
+	margin: 10px 0;
+}
+
+.buy-button {
+	margin: 20px auto 0 auto;
+  display       : block;
+  border-radius : 6px;          /* 角丸       */
+  font-size     : 14pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 29px;   /* 余白       */
+  background    : #fe8c00;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 1px 1px 1px #666666;  /* 影の設定 */
+  border: 0;
+  font-weight: bold;
+  font-family: 'Kosugi Maru', sans-serif;
+  text-decoration: none;
+  width: 30%;
+}
+
+.back-button {
+  display       : inline-block;
+  border-radius: 3px;          /* 角丸       */
+  font-size     : 12pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 10px 13px;   /* 余白       */
+  background    : #FFFFFF;     /* 背景色     */
+  color         : #000000;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  opacity       : 1;           /* 透明度     */
+  transition    : .3s;         /* なめらか変化 */
+  border: solid 1px rgb(192, 192, 192);
+  text-decoration: none;
+  margin-top: 30px;
+}
+.back-button:hover {
+  border: solid 1px #000000;         /* カーソル時透明度 */
+}
+
+.total {
+	color: rgb(128, 128, 128);
+}
+.yen {
+	color: rgb(255, 0, 0); 
+	font-size: 18px;
+}
+.value {
+	color: rgb(255, 0, 0);
+	font-size: 18px; 
+}

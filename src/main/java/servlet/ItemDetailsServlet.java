@@ -131,7 +131,7 @@ public class ItemDetailsServlet extends HttpServlet {
 		session.setAttribute("itemDetailsBeans", itemDetailsBeans);
 		
 		/*商品一覧に移動*/
-		response.sendRedirect("/FINDs/BuyServlet?action=test");
+		response.sendRedirect("./BuyServlet?action=test");
 		
 //		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/test/testList.jsp");
 //		dispatcher.forward(request, response);

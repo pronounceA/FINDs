@@ -191,7 +191,7 @@ public class BuyServlet extends HttpServlet {
 			RequestDispatcher dispatcher = request.getRequestDispatcher(forwordPath);
 			dispatcher.forward(request, response);
 		} catch (NullPointerException e) {
-			response.sendRedirect("/FINDs/LoginServlet");
+			response.sendRedirect("./LoginServlet");
 		}
 	}
 
