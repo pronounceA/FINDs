@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class GetConnection {
 	public static Connection getConnection() throws URISyntaxException, SQLException {
-		URI dbUri = new URI(System.getenv("CLEARDB_DATABASE_URI"));
+		URI dbUri = new URI(System.getenv("CLEARDB_DATABASE_URL"));
 		String username = dbUri.getUserInfo().split(":")[0];
 		String password = dbUri.getUserInfo().split(":")[1];
 		String dbUrl = "jdbc:mysql://" + dbUri.getHost() + dbUri.getPath();
