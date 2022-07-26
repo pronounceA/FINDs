@@ -8,16 +8,13 @@
 
 <h2 class="mypage_title">${user.name}さんの会員情報</h2>
 <div class="box">
-	<div class="icon">
-		<img src="./photo/who.png" width="150" height="150">
-	</div>
 	<div class="personal">
 		ユーザーID：${user.id}<br>
 		ニックネーム：${user.name}<br>
 		所有ポイント：${user.points}P<br>
 		口座残高：${user.bankAccount}円<br>
-		<a href="/TeamB/BuyServlet?action=buyhistory">購入履歴</a><br>
-		※アカウントを切り替える場合は<a href="/TeamB/LoginServlet?action=logout">こちら</a>
+		<!--  <a href="/TeamB/BuyServlet?action=buyhistory">購入履歴</a><br> -->
+		<!-- ※アカウントを切り替える場合は<a href="/TeamB/LoginServlet?action=logout">こちら</a> -->
 	</div>
 </div>
 

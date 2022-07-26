@@ -33,8 +33,8 @@ AccountBeans account = (AccountBeans)session.getAttribute("user");
 					</div>
 				</div>
 				<ul class="menu-list">
-					<li><a href="/IndexServlet">ＴＯＰ</a></li>		
-					<li><a href="/ItemListServlet">FINDsShop</a></li>
+					<li><a class="mainmenu" href="/IndexServlet">ＴＯＰ</a></li>		
+					<li><a class="mainmenu" href="/ItemListServlet">FINDsShop</a></li>
 				</ul>
 			</div>
 		</header>

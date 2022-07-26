@@ -42,7 +42,7 @@ FINDsはECサイトのような機能を持つWEB APIです。（デバイス幅
 </p>
  -->
  <div class="github">
-  github<br>
+  <span style="font-weight: bold;">github</span><br>
   <a href="https://github.com/pronounceA/FINDs">https://github.com/pronounceA/FINDs</a>
  </div>
 
