@@ -173,3 +173,18 @@
 	transition-property: all;
 	transition-duration: 0.5s;
 }
+
+.pp {
+	border: 1px solid #797979;
+	max-width: 100%;
+	max-height: 300px;
+	margin-bottom: 1rem;d
+}
+
+.process {
+	margin-top: 150px;
+}
+
+h1, h2 {
+	margin: 40px 0;
+}

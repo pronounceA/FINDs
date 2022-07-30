@@ -83,20 +83,17 @@ public class LoginServlet extends HttpServlet {
 					session.removeAttribute("registerMsg");
 
 					// フォワード
-					RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+					RequestDispatcher dispatcher = request.getRequestDispatcher("/ItemListServlet");
 					dispatcher.forward(request, response);
 				} else {
 					RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
 					dispatcher.forward(request, response);
 				}
 			}
-		}else if (action.equals("action")) {
+		} else if (action.equals("action")) {
 			// フォワード
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
 			dispatcher.forward(request, response);
-
-			
 		}  
 	}
-
 }
